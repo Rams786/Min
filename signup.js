@@ -7,8 +7,8 @@ function validation(e){
 }
 
 $(document).ready(()=>{
-    $("#signup_model").submit((e)=>{
-        e.pereventDefault();
+    $("#but").click((e)=>{
+       
         var flag = validation(e);
 
         if(flag){
@@ -16,9 +16,9 @@ $(document).ready(()=>{
         var  name = $('#name').val();
         var email= $('#email').val();
         var password = $('#password').val();
-        var phone = $('#phone').val();;
+        var phone = $('#phone').val();
         $.ajax({
-            url:"http://localhost:3000/Users",
+            url:"http://localhost:3000/users",
             method:"POST",
             data:{
                 "name": name, 
@@ -35,5 +35,6 @@ $(document).ready(()=>{
         });
 
         }
-    })
+        e.pereventDefault();
+    });
 });

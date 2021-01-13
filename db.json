@@ -1,10 +1,25 @@
-{"users": [
+{
+  "users": [
     {
       "name": "shekhar",
       "email": "shekharpa@cybage.com",
       "password": "Jack@ss265",
       "phone": "8796749069",
       "id": 1
+    },
+    {
+      "name": "varad",
+      "email": "aa@aa",
+      "password": "12345",
+      "phone": "987654322",
+      "id": 2
+    },
+    {
+      "name": "varad",
+      "email": "varad@cybage.com",
+      "password": "asdfg",
+      "phone": "987654322",
+      "id": 3
     }
   ]
 }

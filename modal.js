@@ -39,8 +39,8 @@ $(document).ready(() => {
     });
 
     //registration form submission
-    $('#signup_model').submit((a) => {
-        a.preventDefault();
+    $('#but').click((a) => {
+        
         let name = $('#name').val();
         let email = $('#email').val();
         let password = $('#password').val();
@@ -56,6 +56,8 @@ $(document).ready(() => {
         $.ajax({
             type: "POST",
             url: "http://localhost:3000/users",
+            dataType: "text",
+            contentType: "application/json",
             data: JSON.stringify(user),
             success: function (data, status, xhr) {
 
@@ -66,14 +68,13 @@ $(document).ready(() => {
             error: function (jqXhr, textStatus, errorMessage) {
                 console.log('error' + errorMessage);
             },
-            dataType: "text",
-            contentType: "application/json",
+           
 
         });
 
 
-
-    })
+        a.preventDefault();
+    });
 
 
     $('.ank').on('click', function () {
@@ -110,8 +111,7 @@ $(document).ready(() => {
 
 
     //login form submission
-    $('#login_model').submit((a) => {
-        a.preventDefault();
+    $("#but1").click((a) => {
         let email = $('#email1').val();
 
         let password = $('#password1').val();
@@ -149,9 +149,9 @@ $(document).ready(() => {
             });
         }
 
+        a.preventDefault();
 
-
-    })
+    });
 
 
     //email validation
