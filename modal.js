@@ -76,7 +76,7 @@ $(document).ready(() => {
     })
 
 
-    $('.buttonx').on('click', function () {
+    $('.ank').on('click', function () {
         let type = $(this).attr('data-filter');
         if (type == 'home') {
             console.log('reach');
