@@ -1,0 +1,13 @@
+.container{
+    background-color: rgba(255, 163, 163, 0.582);
+}
+legend{
+    text-align: center;
+}
+.navbar{
+        background-color: #791E94;
+}
+.modal-content{
+    background: url(./bg2.jpg);
+    color: rgb(224, 224, 224);   
+}

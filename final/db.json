@@ -1,0 +1,88 @@
+{
+  "admin": [
+    {
+        "id": 1,
+        "email": "admin@gmail.com",
+        "password": "admin#123"
+    }
+],
+  "users": [
+    {
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "password": "Ram",
+      "phone": "9876565466",
+      "id": 1
+    },
+    {
+      "name": "Ram123",
+      "email": "ram@gmail.com",
+      "password": "Ram",
+      "phone": "9876565466",
+      "id": 2
+    },
+    {
+      "name": "Ram123",
+      "email": "ram@gmail.com",
+      "password": "Ram",
+      "phone": "9876565466",
+      "id": 3
+    },
+    {
+      "name": "Ram123",
+      "email": "ram@gmail.com",
+      "password": "Ram",
+      "phone": "9876565466",
+      "id": 4
+    },
+    {
+      "name": "R",
+      "email": "ram@gmail.co",
+      "password": "ram",
+      "phone": "9876565466",
+      "id": 5
+    },
+    {
+      "name": "S",
+      "email": "ss@f.x",
+      "password": "ss@f.x",
+      "phone": "9876565466",
+      "id": 6
+    },
+    {
+      "name": "Sasss",
+      "email": "S@ss",
+      "password": "Sss",
+      "phone": "9876565466",
+      "id": 7
+    },
+    {
+      "name": "varad",
+      "email": "varad@cybage.com",
+      "password": "varad",
+      "phone": "9876565466",
+      "id": 8
+    },
+    {
+      "name": "g",
+      "email": "g@g.g",
+      "password": "g",
+      "phone": "9876565467",
+      "id": 9
+    },
+    {
+      "name": "t",
+      "email": "t@t.t",
+      "password": "t",
+      "phone": "55555555555",
+      "id": 10
+    },
+    {
+      "name": "a",
+      "email": "a@a.a",
+      "password": "a",
+      "phone": "9876565466",
+      "id": 11
+    }
+  ]
+}
